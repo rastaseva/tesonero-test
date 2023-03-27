@@ -519,7 +519,7 @@ h3 {
         width: 100%;
         height: 370px;
         align-items: center;
-        border: 2px solid #00C36866;
+        border: 2px solid linear-gradient(to right bottom #00C36866, transparent 30%, transparent 70%);
         border-radius: 30px;
         box-shadow: 3px 6px 23px #00C36866;
         margin-top: 45px;
@@ -556,7 +556,7 @@ h3 {
     }
     .MainBlock_qas_list {
         width: 320px;
-        height: 330px;
+        height: 480px;
     }
     .MainBlock_qas_list div {
         align-items: flex-start;
